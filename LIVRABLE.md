@@ -81,8 +81,28 @@ Elles doivent être reportées ci-dessous.
 
 ### Exigence 1
 
+**Mode sombre/clair**
+Le site dispose d'un mode sombre/clair en fonction des préférences du système d'exploitation.
+
 ### Exigence 2
 
+**Formulaire de contact avec style**
+Le site dispose d'un formulaire de contact dont le style s'adapte à l'état des champs de saisie.
+
+### Exigence 3
+
+**Navigation sticky et burger menu pour mobile sans javascript**
+Lorsqu'on scrolle verticalement, le menu de navigation reste affiché en haut de la page. Si la largeur du terminal est en dessous de 512px, le menu de navigation et remplacé par un bouton permettant de déplier/replier le menu. Tu as le droit de trouver une solution à l'extérieur, mais sois prêt-e à pouvoir expliquer le fonctionnement de ton code.
+
+### Exigence 4
+
+**Version bilingue**
+Traduire le site dans une autre langue et proposer un lien pour passer d'une version à l'autre. C'est un challenge qui mettra à l'épreuve la communication et la coopération en équipe.
+
+### Exigence 5
+
+**Ecoindex**
+Avec un contenu pertinent, obtenir un bon score d'Ecoindex (https://www.ecoindex.fr/). (ne peut pas être cumulé avec l'exigence "Lighthouse 100 - 100 - 100 - 100").
 
 ## Rendu attendu
 
