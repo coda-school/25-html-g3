@@ -16,21 +16,33 @@ Des exmples de code.
 
 ## Lundi 10 novembre
 
-<!--
+
 
 Le groupe est composé de
-- Prénom du membre 1
-- Prénom du membre 2
-- Prénom du membre 3
-- Prénom du membre 4
+- Ethan
+- Clémence 
+- Darill
+- Hugo M
 
-Nous avons choisi le sujet proposé "XXXXXXXXXX" / un sujet que nous avons proposé "YYYYYYYYY"
+Un sujet que nous avons proposé : Un BLOG DE JEUX VIDEOS - 'Chedar Blogame'
 
 Voici les fonctionnalités principales attendues :
-- Fonctionnalité A
-- Fonctionnalité B
-- Fonctionnalité C
-- Fonctionnalité D
 
-...
--->
+- Navigation entre les différentes pages
+- Burger menu sur vue téléphone 
+- Adapté à tous les écrans
+- Formulaire de contact
+- Mode bilingue 
+- Eco index 
+- Mode sombre
+
+
+Ce qui a été fait aujourd'hui :
+
+Ethan : Rédaction des différents articles.
+
+Hugo M : Participation à la rédaction des articles et réalisation du journal. 
+
+Darill : Constitution des ressources image adaptées aux différents formats (mobile, tablette, desktop), choix des polices : Obitron et Space - Grotesk 
+
+Clémence : Réalisation du wireframe du site : ![Screen maquette rendu PC](images/image.png), ![Screen maquette rendu mobile](images/image-1.png).
