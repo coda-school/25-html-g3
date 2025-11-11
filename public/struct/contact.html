@@ -5,14 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="../style/style.css" rel="stylesheet">
     <link href="../style/contact.css" rel="stylesheet">
-<!--    <link href="" rel="icon">-->
+    <link href="../img/developpeur.png" rel="icon">
     <title>Contact</title>
 </head>
 <body>
-<!--    <header>-->
-<!--        <nav>-->
-<!--        </nav>-->
-<!--    </header>-->
+    <header>
+        <nav>
+            <a href="../index.html" title="Retour au menu">
+                <img src="../img/developpeur.png" alt="Logo du site - Retour au menu">
+            </a>
+            <ul>
+                <li>
+                    <a href="../index.html" title="Accueil">Accueil</a>
+                </li>
+                <li>
+                    <a href="article.html" title="Articles">Articles</a>
+                </li>
+                <li>
+                    <a href="contact.html" title="Contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <h1>Contactez-nous</h1>
         <form action="" method="post">
@@ -23,16 +37,16 @@
             <input type="radio" id="other" name="gender" value="other">
             <label for="other">Autre</label>
 
-            <label for="name">Nom: </label>
+            <label for="name">Nom&nbsp:</label>
             <input type="text" id="name" name="name" maxlength="30" placeholder="De Riv">
 
-            <label for="first_name">Prénom: </label>
+            <label for="first_name">Prénom&nbsp:</label>
             <input type="text" id="first_name" name="first_name" maxlength="30" placeholder="Gérald">
 
-            <label for="email">Email: </label>
+            <label for="email">Email&nbsp:</label>
             <input type="email" id="email" name="email" placeholder="gerald.deriv@gmail.com" required>
 
-            <label for="comment">Commentaire: </label>
+            <label for="comment">Commentaire&nbsp:</label>
             <textarea id="comment" name="comment" rows="4" cols="50" placeholder="N'hésitez pas à réagir sur nos articles et à nous parler de vos jeux préférés!"></textarea>
 
             <input type="submit" value="Envoyer">
