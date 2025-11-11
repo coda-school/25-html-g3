@@ -28,28 +28,43 @@
         </nav>
     </header>
     <main>
-        <h1>Contactez-nous</h1>
+        <hgroup>
+            <h1>Contactez-nous</h1>
+            <p>Une question, une suggestion ou envie de collaborer&nbsp? Envoyez-nous un message&nbsp!</p>
+        </hgroup>
         <form action="" method="post">
-            <input type="radio" id="male" name="gender" value="male">
-            <label for="male">Monsieur</label>
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Madame</label>
-            <input type="radio" id="other" name="gender" value="other">
-            <label for="other">Autre</label>
-
-            <label for="name">Nom&nbsp:</label>
-            <input type="text" id="name" name="name" maxlength="30" placeholder="De Riv">
-
-            <label for="first_name">Prénom&nbsp:</label>
-            <input type="text" id="first_name" name="first_name" maxlength="30" placeholder="Gérald">
-
-            <label for="email">Email&nbsp:</label>
-            <input type="email" id="email" name="email" placeholder="gerald.deriv@gmail.com" required>
-
-            <label for="comment">Commentaire&nbsp:</label>
-            <textarea id="comment" name="comment" rows="4" cols="50" placeholder="N'hésitez pas à réagir sur nos articles et à nous parler de vos jeux préférés!"></textarea>
-
-            <input type="submit" value="Envoyer">
+            <fieldset class="flex_row">
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Monsieur</label>
+            </fieldset>
+            <fieldset class="flex_row">
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Madame</label>
+            </fieldset>
+            <fieldset class="flex_row">
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Autre</label>
+            </fieldset>
+            <fieldset>
+                <label for="name">Nom&nbsp:</label>
+                <input type="text" id="name" name="name" maxlength="30" placeholder="De Riv">
+            </fieldset>
+            <fieldset>
+                <label for="first_name">Prénom&nbsp:</label>
+                <input type="text" id="first_name" name="first_name" maxlength="30" placeholder="Gérald">
+            </fieldset>
+            <fieldset>
+                <label for="email">Email&nbsp:</label>
+                <input type="email" id="email" name="email" placeholder="gerald.deriv@gmail.com" required>
+            </fieldset>
+            <fieldset>
+                <label for="comment">Commentaire&nbsp:</label>
+                <textarea id="comment" name="comment"
+                          placeholder="N'hésitez pas à réagir sur nos articles et à nous parler de vos jeux préférés!"></textarea>
+            </fieldset>
+            <fieldset>
+                <input type="submit" value="Envoyer">
+            </fieldset>
         </form>
     </main>
 <!--    <footer>-->

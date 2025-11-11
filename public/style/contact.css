@@ -1,0 +1,56 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+header nav ul {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+header nav img {
+    width: 50px;
+}
+
+main {
+    padding: 2rem;
+}
+
+hgroup {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+.flex_row {
+    display: flex;
+    flex-direction: row;
+}
+
+input,
+textarea {
+    border-radius: 5px;
+}
