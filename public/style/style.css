@@ -1,0 +1,37 @@
+<<<<<<< Updated upstream
+=======
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Nos variables réutilisées fréquemment */
+:root {
+    --color-white: #ffffffcc;
+    --color-bg-start: #0b0f1a;
+    --color-bg-end: #02040a;
+    --color-bg-mid: #0b0420;
+
+    --color-cyan: rgba(0, 255, 255, 0.8);
+    --color-pink: rgba(255, 28, 192, 0.8);
+    --color-purple: rgba(177, 49, 250, 0.8);
+    --color-blue: rgba(28, 58, 255, 0.8);
+
+    
+    --title-font: "Orbitron", sans-serif;
+    --text-font: "Space Grotesk", sans-serif;
+}
+
+[href^="https://"]::after,
+[href^="http://"]::after {
+    content: "";
+    display: inline-block;
+    width: 0.8rem;
+    height: 0.8rem;
+    background-image: url("../img/lien.png");
+    background-size: contain;
+}
+>>>>>>> Stashed changes
