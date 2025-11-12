@@ -63,6 +63,8 @@ main{
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    text-align: center;
+    padding: 40px 10px;
 }
 
 ul {
@@ -425,7 +427,7 @@ main {
     padding-top: 90px;
     padding-left: 15px;
     padding-right: 15px;
-    min-height: 2000px;
+    min-height: 200px;
 }
 
 main h1 {
@@ -446,7 +448,6 @@ main h1 {
 
 
 footer {
-    position: absolute;
     bottom: 0;
     width: 100%;
     max-width: 100%;
