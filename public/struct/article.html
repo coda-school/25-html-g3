@@ -10,8 +10,26 @@
 
 <body>
 <header class="header">
-    <h1>Articles jeux vidéo</h1>
-    <p>Analyses, mécaniques, atouts et limites des titres récents et marquants</p>
+    <div class="header-container">
+        <img src="./img/logo.png" alt="Logo du site CHEDAR Blogame." class="logo">
+        <h1>Articles</h1>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+        <label for="menu-toggle" class="menu-icon" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <nav class="nav">
+            <ul class="nav_bloc">
+                <li><a id="Acceuil" href="./index.html" class="nav_link nav_active_link"><span class="scan-line"></span>Accueil.</a></li>
+                <li><a id="Jeux" href="./struct/article.html" class="nav_link">Jeux.</a></li>
+                <li><a id="Contacts" href="./struct/contact.html" class="nav_link">Contacts.</a></li>
+            </ul>
+        </nav>
+
+    </div>
 </header>
 
 <main id="content">
@@ -304,8 +322,18 @@
 </main>
 
 <footer>
-    <p><a href="https://github.com/coda-school/25-html-g3/tree/main">Code source Github</a></p>
-    <p><a href="https://coda-school.github.io/speedlify-dijon-b1-2025/25-html-g3/">Performances du site</a></p>
+    <div class="logo_comp">
+        <img src="./img/logo.png" alt="Logo du site CHEDAR Blogame." class="logo">
+        <p>CHEDAR BLOGAME.</p>
+    </div>
+    <div class="footer_links">
+        <a class="glassIco" href="./struct/contact.html"><i class="fab fa-facebook-f"></i></a>
+        <a class="glassIco" href="./struct/contact.html"><i class="fab fa-instagram"></i></a>
+        <a class="glassIco" href="https://github.com/coda-school/25-html-g3"><i class="fab fa-github"></i></a>
+        <a class="glassIco" href="https://coda-school.github.io/speedlify-dijon-b1-2025/25-html-g3/"><i class="fas fa-network-wired"></i></a>
+
+        <a class="glassIco" href="#Acceuil"><i class="fas fa-angle-double-up"></i></a>
+    </div>
 </footer>
 </body>
 </html>
