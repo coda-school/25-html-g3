@@ -1,3 +1,11 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 /* Nos variables réutilisées fréquemment */
 :root {
     --color-white: #ffffffcc;
