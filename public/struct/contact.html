@@ -1,15 +1,45 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="../style/style.css" rel="stylesheet">
-    <link href="../style/contact.css" rel="stylesheet">
-    <link href="../img/logo.png" rel="icon">
-    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Page de contact avec l'équipe de développement de CHEDAR BLOGAME.">
+    <title>CHEDAR BLOGAME.</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Space+Grotesk:wght@300..700&family=Syne:wght@400..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/contact.css">
+
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
 </head>
 <body>
-    <header>
+    <header class="header">
+        <div class="header-container">
+            <img src="../img/logo.png" alt="Logo du site CHEDAR Blogame." class="logo">
+
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+            <label for="menu-toggle" class="menu-icon" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <nav class="nav">
+                <ul class="nav_bloc">
+                    <li><a id="Acceuil" href="../index.html" class="nav_link nav_active_link"><span
+                            class="scan-line"></span>Accueil.</a>
+                    </li>
+                    <li><a id="Jeux" href="../struct/article.html" class="nav_link">Jeux.</a></li>
+                    <li><a id="Contacts" href="../struct/contact.html" class="nav_link">Contacts.</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <hgroup>
@@ -53,5 +83,19 @@
             </fieldset>
         </form>
     </main>
+    <footer>
+        <div class="logo_comp">
+            <img src="./img/logo.png" alt="Logo du site CHEDAR Blogame." class="logo">
+            <p>CHEDAR BLOGAME.</p>
+        </div>
+        <div class="footer_links">
+            <a class="glassIco" href="./struct/contact.html"><i class="fab fa-facebook-f"></i></a>
+            <a class="glassIco" href="./struct/contact.html"><i class="fab fa-instagram"></i></a>
+            <a class="glassIco" href="https://github.com/coda-school/25-html-g3"><i class="fab fa-github"></i></a>
+            <a class="glassIco" href="https://coda-school.github.io/speedlify-dijon-b1-2025/25-html-g3/"><i class="fas fa-network-wired"></i></a>
+
+            <a class="glassIco" href="#Acceuil"><i class="fas fa-angle-double-up"></i></a>
+        </div>
+    </footer>
 </body>
 </html>
