@@ -1,10 +1,22 @@
+:root {
+    --gradient-primary-start: rgba(255, 28, 191, 0.9);
+    --gradient-primary-mid: rgba(168, 18, 255, 0.6);
+    --gradient-primary-end: rgb(20, 50, 246);
+}
+
 main {
     padding: 2rem;
+    margin-top: 2.5rem;
+    min-height: 0;
 }
 
 hgroup {
     text-align: center;
     padding: 2rem 0;
+}
+
+h1 {
+    padding: 2rem;
 }
 
 form {
@@ -29,5 +41,14 @@ fieldset {
 
 input,
 textarea {
-    border-radius: 5px;
+    border: solid 4px ;
+    border-image: linear-gradient(90deg, var(--gradient-primary-start), var(--gradient-primary-end));
+    border-image-slice: 1;
+    padding: 0.2rem;
+    margin: 0.2rem;
+}
+
+[type="submit"] {
+    background: linear-gradient(90deg, var(--gradient-primary-start), var(--gradient-primary-end));
+    color: white;
 }
