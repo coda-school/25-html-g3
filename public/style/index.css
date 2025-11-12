@@ -1,0 +1,44 @@
+body {
+    font-family: var(--text-font);
+    background: radial-gradient(circle at center, var(--color-bg-start) 0%, var(--color-bg-end) 100%);
+    color: var(--color-white);
+    min-height: 100vh;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-family: var(--title-font);
+}
+
+.header {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    backdrop-filter: blur(15px);
+    background: rgba(20, 20, 30, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    z-index: 1000;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 15px;
+    position: relative;
+}
