@@ -1,5 +1,7 @@
 main {
     padding: 2rem;
+    margin-top: 2.5rem;
+    min-height: 0;
 }
 
 hgroup {
