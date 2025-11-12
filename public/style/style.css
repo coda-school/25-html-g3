@@ -18,6 +18,23 @@
     --color-purple: rgba(177, 49, 250, 0.8);
     --color-blue: rgba(28, 58, 255, 0.8);
 
+    --gradient-primary-start: rgba(255, 28, 191, 0.9);
+    --gradient-primary-mid: rgba(168, 18, 255, 0.6);
+    --gradient-primary-end: rgb(20, 50, 246);
+
+    --gradient-hover-start: rgba(255, 28, 192, 0.25);
+    --gradient-hover-end: rgba(28, 58, 255, 0.2);
+
+    --border-hover: rgba(255, 28, 192, 0.5);
+
+    --shadow-primary: rgba(177, 49, 250, 0.4);
+    --shadow-secondary: rgba(43, 71, 255, 0.25);
+    --shadow-inset: rgba(28, 255, 194, 0.25);
+
+    --shadow-hover-1: rgba(255, 28, 192, 0.6);
+    --shadow-hover-2: rgba(177, 49, 250, 0.45);
+    --shadow-hover-3: rgba(28, 58, 255, 0.3);
+
     
     --title-font: "Orbitron", sans-serif;
     --text-font: "Space Grotesk", sans-serif;
