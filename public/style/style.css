@@ -22,3 +22,15 @@
     --title-font: "Orbitron", sans-serif;
     --text-font: "Space Grotesk", sans-serif;
 }
+
+
+[href^="https://"]::after,
+[href^="http://"]::after {
+    content: "";
+    display: inline-block;
+    width: 0.8rem;
+    height: 0.8rem;
+    background-image: url("../img/lien.png");
+    background-size: contain;
+}
+
