@@ -26,6 +26,15 @@ form {
 
 }
 
+label:has(+ input[required])::before {
+    content: '* ';
+    color: var(--gradient-primary-start);
+}
+
+input[type="radio"]:checked {
+    accent-color: var(--gradient-primary-start);
+}
+
 fieldset {
     border: none;
     display: flex;
@@ -61,4 +70,24 @@ textarea {
 [type="submit"]:hover {
     transform: scale(1.05);
     box-shadow: 0 0 10px var(--gradient-primary-start);
+}
+
+
+@media (min-width: 700px) {
+
+    form fieldset{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .button_submit{
+        justify-self: center;
+        align-self: center;
+    }
+
+    .button_submit input{
+        width: 300px;
+    }
 }
