@@ -18,6 +18,7 @@
 
 main h2 {
     padding-top: 100px;
+    padding-bottom: 1rem;
 }
 
 main p {
@@ -28,15 +29,27 @@ main p {
 
 main time {
     padding-bottom: 0.5rem;
+    font-style: italic;
+}
+
+main ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 main li {
-    text-decoration: underline;
+    border: solid 1px;
+    padding: 5px;
+    margin: 10px;
+    transition: 0.2s ease-in-out;
 }
 
 main li:hover {
-    text-decoration: underline;
-    color: dodgerblue;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(135deg, var(--gradient-primary-start), var(--gradient-primary-end));
+    transform: scale(1.1);
 }
 
 .game-article {
@@ -55,14 +68,13 @@ main li:hover {
     animation: glitch 0.3s ease-in-out;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 1080px) {
     main h2 {
         text-align: left;
     }
 
     main p {
         text-indent: 4rem;
-        min-width: 600px;
         max-width: 1080px;
         text-align: center;
 
