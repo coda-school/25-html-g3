@@ -46,3 +46,8 @@ Hugo M : Participation à la rédaction des articles et réalisation du journal.
 Darill : Constitution des ressources image adaptées aux différents formats (mobile, tablette, desktop), choix des polices : Obitron et Space - Grotesk 
 
 Clémence : Réalisation du wireframe du site : ![Screen maquette rendu PC](images/image.png), ![Screen maquette rendu mobile](images/image-1.png).
+
+
+Jour 2 du projet (Décision Technique de l'équipe sur l'édition d'un maquette de haute fidélité) :: L'équipe a souhaité faire une maquette pour avoir une base plus concrète d'aspect visuel avant de passer au code...
+![Screen maquette rendu PC](./images/maquette_blog.png) <<EOF
+Au vu de temps restant et de la possible complexité de sa mise en oeuvre (Darill s'est un peu emballé sur la conception) nous avons abandonné cette idée de départ même si les couleurs utilisées ainsi que l'aspect général ont bien été exploités pour rester conforme à notre charte graphique...
