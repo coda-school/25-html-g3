@@ -28,6 +28,14 @@ main time {
     padding-bottom: 0.5rem;
 }
 
+main li {
+    text-decoration: underline;
+}
+
+main li:hover {
+    text-decoration: underline;
+}
+
 .game-article {
     padding: 0.2rem;
     display: flex;
