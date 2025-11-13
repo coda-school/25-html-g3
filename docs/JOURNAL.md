@@ -49,6 +49,12 @@ Clémence : Réalisation du wireframe du site : ![Screen maquette rendu PC](imag
 
 
 • Jour 2: du projet (Décision Technique de l'équipe sur l'édition d'un maquette de haute fidélité) :: L'équipe a souhaité faire une maquette pour avoir une base plus concrète d'aspect visuel avant de passer au code...
-![Screen maquette rendu PC](./images/maquette_blog.png) <br>
+![Screen maquette Figma](./images/maquette_blog.png) <br>
 Au vu du temps restant et de la possible complexité de sa mise en oeuvre (Darill s'est un peu emballé sur la conception) nous avons abandonné cette idée de départ même si les couleurs utilisées ainsi que l'aspect général ont bien été exploités pour rester conforme à notre charte graphique...
 
+
+• Grâce aux cours dispensés pendant le projet, nous avons procédé à quelques modifications de notre code CSS notemment au niveau de la gestion des appels aux propriétés ciblées : <br>
+![Screen Code BEfore](./images/before.png) <br>
+AVANT...
+![Screen Code After](./images/after.png) <br>
+APRES... On obtient un code beaucoup moins long et plus compréhensible.

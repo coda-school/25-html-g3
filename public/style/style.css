@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 
@@ -128,6 +129,7 @@ main h1 {
     font-size: 2.5rem;
     font-family: var(--title-font);
     letter-spacing: 3px;
+    font-weight: bold;
 }
 
 @keyframes slider-vertical{
