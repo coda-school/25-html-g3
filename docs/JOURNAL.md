@@ -64,3 +64,20 @@ Au vu du temps restant et de la possible complexité de sa mise en oeuvre nous a
 AVANT...
 ![Screen Code After](./images/after.png) <br><br>
 APRES... On obtient un code beaucoup moins long et plus compréhensible.
+
+•Les problèmes ! En effet, nous avons été confrontés à plusieurs problèmes avec Git. Nous avions plusieurs branches à notre nom pour que chacun puisse travailler sur sa partie sans que les autres doivent pull constamment, évitant donc les conflits. Nous aurions alors fusionné les différentes branches sur une branche annexe, puis après vérification sur la main, malheureusement ce ne peut se faire.
+Certains ne pouvaient pas pull les branches correctement et se supprimer instantanément, plusieurs conflits ont aussi eu lieu car les différentes branches ne pouvaient être récupérées et donc un conflit avait lieu. En bref, nous avons fini par mettre sur la main petit à petit.
+
+
+## Jeudi 13 Novembre
+
+•Peaufinage du code et vérification des erreurs :
+Un problème trouvé et réglé dans le CSS
+
+Nous avons vérifier les exigences en groupe pour rendre compte sur le respect ou non des exigences. 
+
+-Eco index : A+ 
+-Résultat CSS et HTML : Pas d'erreur
+-spedlify :images/![alt text](images/11.png)
+
+•Une mise à niveau de chacun sur le code en commun a été réalisée.
