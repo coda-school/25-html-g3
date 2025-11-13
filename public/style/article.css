@@ -23,6 +23,7 @@ main h2 {
 main p {
     text-align: left;
     text-indent: 2rem;
+    text-align: justify;
 }
 
 main time {
@@ -58,9 +59,12 @@ main li:hover {
     main h2 {
         text-align: left;
     }
+
     main p {
         text-indent: 4rem;
-        max-width: 600px;
+        min-width: 600px;
+        max-width: 1080px;
         text-align: center;
+
     }
 }
