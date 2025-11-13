@@ -28,8 +28,10 @@ main time {
     padding: 0.2rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-.game-article img {
-    width: 80%;
+.game-article img:hover {
+    width: 90%;
+    animation: glitch 0.3s ease-in-out;
 }

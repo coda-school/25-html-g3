@@ -52,7 +52,7 @@
     background-size: contain;
 }
 
-main{
+main {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -771,6 +771,25 @@ footer {
     }
 }
 
-
-
-
+@keyframes glitch {
+    0%, 100% {
+        transform: translate(0);
+        filter: hue-rotate(0deg);
+    }
+    20% {
+        transform: translate(-3px, 2px);
+        filter: hue-rotate(90deg);
+    }
+    40% {
+        transform: translate(3px, -2px);
+        filter: hue-rotate(180deg);
+    }
+    60% {
+        transform: translate(-2px, -3px);
+        filter: hue-rotate(270deg);
+    }
+    80% {
+        transform: translate(2px, 3px);
+        filter: hue-rotate(360deg);
+    }
+}
