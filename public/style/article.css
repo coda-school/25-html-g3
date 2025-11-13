@@ -16,12 +16,24 @@
     }
 }
 
+main h2 {
+    padding-top: 100px;
+}
+
 main p {
     text-align: left;
 }
 
 main time {
     padding-bottom: 0.5rem;
+}
+
+main li {
+    text-decoration: underline;
+}
+
+main li:hover {
+    text-decoration: underline;
 }
 
 .game-article {
@@ -31,7 +43,11 @@ main time {
     align-items: center;
 }
 
-.game-article img:hover {
+.game-article img {
     width: 90%;
+    max-width: 600px;
+}
+
+.game-article img:hover {
     animation: glitch 0.3s ease-in-out;
 }
