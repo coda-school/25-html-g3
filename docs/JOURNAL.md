@@ -46,3 +46,21 @@ Hugo M : Participation à la rédaction des articles et réalisation du journal.
 Darill : Constitution des ressources image adaptées aux différents formats (mobile, tablette, desktop), choix des polices : Obitron et Space - Grotesk 
 
 Clémence : Réalisation du wireframe du site : ![Screen maquette rendu PC](images/image.png), ![Screen maquette rendu mobile](images/image-1.png).
+
+
+
+## Mardi 11 novembre
+
+
+• Jour 2: du projet (Décision Technique de l'équipe sur l'édition d'un maquette de haute fidélité) :: L'équipe a souhaité faire une maquette pour avoir une base plus concrète d'aspect visuel avant de passer au code...
+![Screen maquette Figma](./images/maquette_blog.png) <br>
+(DARILL) <br><br>
+Au vu du temps restant et de la possible complexité de sa mise en oeuvre nous avons abandonné cette idée de départ même si les couleurs utilisées ainsi que l'aspect général ont bien été exploités pour rester conforme à notre charte graphique...
+
+## Mercredi 12 novembre
+
+• Grâce aux cours dispensés pendant le projet, nous avons procédé à quelques modifications de notre code CSS notemment au niveau de la gestion des appels aux propriétés ciblées : <br>
+![Screen Code BEfore](./images/before.png) <br><br>
+AVANT...
+![Screen Code After](./images/after.png) <br><br>
+APRES... On obtient un code beaucoup moins long et plus compréhensible.

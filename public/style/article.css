@@ -1,6 +1,17 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.hero{
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url(../img/hero_clash.jpg) no-repeat center;
+  background-size: cover;
+
 }
 
+@media (min-width: 600px) {
+    .hero{
+        background: 
+        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+        url(../img/hero_big.jpg) no-repeat center;
+        background-size: cover;
+        height: 100vh;
+    }
+}
