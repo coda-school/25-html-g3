@@ -16,9 +16,16 @@
     }
 }
 
-main h2 {
+article {
     padding-top: 100px;
+}
+
+main h2 {
     padding-bottom: 1rem;
+}
+main h3 {
+    padding-top: 20px;
+    padding-bottom: 15px;
 }
 
 main p {
@@ -28,7 +35,7 @@ main p {
 }
 
 main time {
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.2rem;
     font-style: italic;
 }
 
@@ -61,7 +68,7 @@ main li:hover {
 
 .game-article img {
     width: 90%;
-    max-width: 600px;
+    max-width: 648px;
 }
 
 .game-article img:hover {
@@ -78,5 +85,13 @@ main li:hover {
         max-width: 1080px;
         text-align: center;
 
+    }
+}
+
+@media (min-width: 1420px) {
+    article {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 }
