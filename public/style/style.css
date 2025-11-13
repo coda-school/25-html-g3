@@ -570,6 +570,7 @@ footer {
 .glassIco:last-child{
     margin-left: 10px;
     border-bottom: double 3px #fff;
+    scroll-margin-top: 180px;
 }
 
 .glassIco:hover {
