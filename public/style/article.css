@@ -15,3 +15,11 @@
         height: 100vh;
     }
 }
+
+main p {
+    text-align: left;
+}
+
+main time {
+    padding-bottom: 0.5rem;
+}
