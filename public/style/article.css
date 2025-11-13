@@ -29,3 +29,7 @@ main time {
     display: flex;
     flex-direction: column;
 }
+
+.game-article img {
+    width: 80%;
+}
