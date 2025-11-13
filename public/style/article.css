@@ -60,5 +60,7 @@ main li:hover {
     }
     main p {
         text-indent: 4rem;
+        max-width: 600px;
+        text-align: center;
     }
 }
