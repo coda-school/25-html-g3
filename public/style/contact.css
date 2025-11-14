@@ -6,7 +6,6 @@
 
 main {
     padding: 2rem;
-    margin-top: 2.5rem;
     min-height: 0;
 }
 
@@ -26,28 +25,11 @@ form {
     width: 100%;
 }
 
-label:has(+ input[required])::before {
-    content: '* ';
-    color: var(--gradient-primary-start);
-}
-
-input[type="radio"]:checked {
-    accent-color: var(--gradient-primary-start);
-}
-
 fieldset {
     border: none;
     display: flex;
     flex-direction: column;
     padding: 0.5rem;
-}
-
-.flex_row,
-.flex_row_container {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: wrap;
 }
 
 input,
@@ -59,6 +41,28 @@ textarea {
     margin: 0.2rem;
     background-color: #333333;
     color: white;
+}
+
+.flex_row,
+.flex_row_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+label:has(+ input[required])::before {
+    content: '* ';
+    color: var(--gradient-primary-start);
+}
+
+input[type="radio"]:checked {
+    accent-color: var(--gradient-primary-start);
+}
+
+input:not([type="submit"]):hover,
+textarea:hover {
+    background-color: #3e3d3d;
 }
 
 [type="submit"] {
