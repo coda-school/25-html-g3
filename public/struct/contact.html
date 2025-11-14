@@ -41,46 +41,65 @@
         </div>
     </header>
     <main>
-        <hgroup>
-            <h1>Contactez-nous</h1>
-            <p>Une question, une suggestion ou envie de collaborer&nbsp;? Envoyez-nous un message&nbsp;!</p>
-        </hgroup>
-        <form method="post">
-            <div class="flex_row">
-                <fieldset class="flex_row">
-                    <input type="radio" id="male" name="gender" value="male">
-                    <label for="male">Monsieur</label>
-                </fieldset>
-                <fieldset class="flex_row">
-                    <input type="radio" id="female" name="gender" value="female">
-                    <label for="female">Madame</label>
-                </fieldset>
-                <fieldset class="flex_row">
-                    <input type="radio" id="other" name="gender" value="other">
-                    <label for="other">Autre</label>
-                </fieldset>
+        <h1>Contactez nous.</h1>
+        <div class="form-container">
+            
+            <div class="form-corners-bottom">
+                <form class="contact-form" action="#" method="POST">
+                    
+                    <div class="form-group">
+                    <label for="name">Nom</label>
+                    <input 
+                        type="text" 
+                        id="name" 
+                        name="name"
+                        placeholder="Votre nom complet"
+                        required
+                    >
+                    </div>
+
+                    <div class="form-group">
+                    <label for="age">Âge</label>
+                    <input 
+                        type="number" 
+                        id="age" 
+                        name="age" 
+                        placeholder="Votre âge"
+                        min="1"
+                        max="150"
+                        required
+                    >
+                    </div>
+
+                    <div class="form-group">
+                    <label for="email">Email</label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        placeholder="votre.email@exemple.com"
+                        required
+                    >
+                    </div>
+
+                    <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea 
+                        id="message" 
+                        name="message" 
+                        placeholder="Faites nous part de vos impresions sur nos articles..."
+                        required
+                    ></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                    <span class="scan-line"></span>
+                    Envoyer
+                    </button>
+
+                </form>
             </div>
-            <fieldset>
-                <label for="name">Nom&nbsp;:</label>
-                <input type="text" id="name" name="name" maxlength="30" placeholder="De Riv">
-            </fieldset>
-            <fieldset>
-                <label for="first_name">Prénom&nbsp;:</label>
-                <input type="text" id="first_name" name="first_name" maxlength="30" placeholder="Gérald">
-            </fieldset>
-            <fieldset>
-                <label for="email">Email&nbsp;:</label>
-                <input type="email" id="email" name="email" placeholder="gerald.deriv@gmail.com" required>
-            </fieldset>
-            <fieldset>
-                <label for="comment">Commentaire&nbsp;:</label>
-                <textarea id="comment" name="comment" rows="10"
-                          placeholder="N'hésitez pas à réagir sur nos articles et à nous parler de vos jeux préférés!"></textarea>
-            </fieldset>
-            <fieldset class="button_submit">
-                <input type="submit" value="Envoyer">
-            </fieldset>
-        </form>
+        </div>
     </main>
     <footer>
         <div class="logo_comp">
