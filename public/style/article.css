@@ -104,7 +104,7 @@ main li:hover {
         padding: 20px;
     }
 
-    article:nth-child(odd) {
+    article:nth-of-type(odd) {
         flex-direction: row-reverse;
     }
 }
