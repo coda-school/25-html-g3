@@ -319,6 +319,7 @@ a {
     transition: all 0.4s ease;
 }
 
+
 .nav_link::before {
     content: '';
     position: absolute;
