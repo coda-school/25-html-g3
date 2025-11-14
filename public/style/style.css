@@ -46,13 +46,8 @@
 
 [href^="https://"]::after,
 [href^="http://"]::after {
-    content: "";
+    content: " 🔗";
     display: inline-block;
-    width: 0.8rem;
-    height: 0.8rem;
-    background-image: url("../img/lien.png");
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
 main {
