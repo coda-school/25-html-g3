@@ -47,7 +47,7 @@
   position: relative;
   width: 100%;
   max-width: 400px;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 14 / 9;
   overflow: hidden;
   
   background: linear-gradient(
