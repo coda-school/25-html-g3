@@ -107,5 +107,4 @@ main li:hover {
     article:nth-child(odd) {
         flex-direction: row-reverse;
     }
-
 }
