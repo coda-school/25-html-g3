@@ -94,4 +94,17 @@ main li:hover {
         flex-direction: row;
         align-items: center;
     }
+    main p {
+        text-align: left;
+        text-indent: 2rem;
+        text-align: justify;
+    }
+    section {
+        padding: 20px;
+    }
+
+    article:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+
 }
