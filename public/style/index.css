@@ -7,8 +7,6 @@
   margin-bottom: 60px;
   position: relative;
 }
-<<<<<<< Updated upstream
-=======
 
 .game-title {
   font-family: var(--title-font);
@@ -38,7 +36,6 @@
   border-top: 2px solid;
   border-image: linear-gradient(90deg, transparent, var(--color-cyan), var(--color-pink), transparent) 1;
 }
->>>>>>> Stashed changes
 
 .game-content {
   display: flex;
