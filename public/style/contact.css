@@ -1,9 +1,3 @@
-:root {
-    --gradient-primary-start: rgba(255, 28, 191, 0.9);
-    --gradient-primary-mid: rgba(168, 18, 255, 0.6);
-    --gradient-primary-end: rgb(20, 50, 246);
-}
-
 main {
     padding: 2rem;
     min-height: 0;
