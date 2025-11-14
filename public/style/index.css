@@ -7,34 +7,6 @@
   margin-bottom: 60px;
   position: relative;
 }
-.game-title {
-  font-family: var(--title-font);
-  position: sticky;
-  top: 8%;
-  z-index: 100;
-  padding: 15px 20px;
-  margin-bottom: 25px;
-  font-size: 1.4rem;
-  font-weight: 200;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  text-align: center;
-
-  background: rgba(11, 4, 32, 0.85);
-  backdrop-filter: blur(15px);
-  border: 1px solid rgba(100, 200, 255, 0.3);
-  border-left: none;
-  border-right: none;
-  
-  box-shadow:
-    0 0 20px rgba(100, 200, 255, 0.3),
-    inset 0 0 30px rgba(100, 200, 255, 0.1);
-  
-  background-image: linear-gradient(135deg, var(--color-cyan), var(--color-pink), var(--color-purple));
-  background-clip: text;
-  border-top: 2px solid;
-  border-image: linear-gradient(90deg, transparent, var(--color-cyan), var(--color-pink), transparent) 1;
-}
 
 .game-content {
   display: flex;
