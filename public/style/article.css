@@ -16,12 +16,9 @@
     }
 }
 
-article {
-    padding-top: 100px;
-}
-
 main h2 {
     padding-bottom: 1rem;
+    padding-top: 100px;
 }
 main h3 {
     padding-top: 20px;
@@ -100,7 +97,7 @@ main li:hover {
         text-indent: 2rem;
         text-align: justify;
     }
-    
+
     section {
         padding: 20px;
     }
