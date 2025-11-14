@@ -74,7 +74,6 @@
   background-image: 
     linear-gradient(white, white),
     conic-gradient(
-      from var(--border-angle),
       transparent 0deg 90deg,
       var(--color-cyan) 90deg 180deg,
       var(--color-pink) 180deg 270deg,
